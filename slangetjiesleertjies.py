@@ -81,20 +81,9 @@ aantalhokke = 10
 plt.hist(x, bins = aantalhokke)
 plt.xlabel('Aantal gooie')
 plt.ylabel('Aantal verskynsels')
+plt.savefig('Resultaat.png')
 plt.show()
 
+
+
 # %%
-# Gevolgtrekkings:
-# 1.  Bord met geen slangetjies of leertjies is normaal versprei rondom 30
-# 2.  Bord met slangetjies en leertjies verkort spel en maak dit 'n Weibull met minder aantal gooie as die normaal verspreide 
-# 3.  Bord met net leertjies maak die spel vinniger, maar verspreiding is nog amper normaal
-# 4.  Bord met net slangetjies maak spel baie langer, maar verspreiding is Weibull
-
-# Teenspoed veroorsaak Weibull verspreiding.
-# Mengsel van voorspoed en teenspoed is Weibull verspreiding.
-# Met mengsel van voorspoed en teenspoed is spel geneig om nog steeds vinniger te gaan meestal.  Dit mag verduidelik hoekom vooruitgang in die algemeen plaasvind.
-# Teenspoed veroorsaak lang sterte
-
-# Kan loopbaan vordering modelleer (lere is bevordering, slange is terugslae)
-# Kan ruimtereise met lukrake plasing van wurmgate modelleer
-# Kan ekstreme onverwagse toestande modelleer (soos met aandelepryse) en die effek op portefeuljes
